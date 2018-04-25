@@ -1,0 +1,87 @@
+header{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5%;
+}
+nav{
+    font-size: 18px;
+}
+
+body{
+    background-color:#f9fafc;
+    font-family: "Open sans";
+    font-weight: 800;  
+}
+
+
+a.HireUs{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+p{
+    display: inline-block;
+     width: 40%;
+     border-style: solid;
+     border-left-width: 2px;
+     border-bottom-width: 0px;
+     border-right-width: 0px;
+     border-top-width: 0px;
+     padding-left: 10px;
+     border-color: #69696a;
+     margin-top: 20px;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+#orange {
+    height: 190px;
+    width: 190px;
+    background-color:rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 770px;
+    z-index: 1;
+  }
+
+#purple{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 790px;
+    margin-top: -150px;
+    z-index: 2;
+  }
+
+#red{
+    height: 300px;
+    width: 300px;
+    background-color:rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: -150px;
+   
+    margin-bottom: 40px;
+    margin-left: 550px;
+    z-index: 3;
+  }
+  button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 220px;
+    margin-left: 450px;
+  }
