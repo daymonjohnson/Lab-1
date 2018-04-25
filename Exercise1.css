@@ -1,0 +1,36 @@
+body{
+	background-color: lightblue;
+}
+div{
+	text-align: center;
+	margin: 0 auto;
+	
+	position: fixed;
+	left: 10px;
+	right: 10px;
+}
+form{
+	display: inline-block;
+	margin: 100 0 10 0;
+	height: 300px;
+	width: 130px;
+	
+}
+fieldset{
+	background-color: white;
+}
+.signin{
+	background-color:cyan;
+	width: 130px;
+}
+p{
+	text-align: center;
+	color: gray;
+}
+h1{
+	font-size: 22px;
+}
+h2{
+	font-size: 16px;
+	color: gray;
+}
